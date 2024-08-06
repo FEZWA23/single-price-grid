@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,700&display=swap');
+
+*{
+   padding: 0;
+   margin:0;
+    box-sizing: border-box;
+}
+:root{
+    
+   --cyan: hsl(179, 62%, 43%);
+   --bright-yellow: hsl(71, 73%, 54%);
+   --light-gray: hsl(204, 43%, 93%);
+   --grayish-blue: hsl(218, 22%, 67%);
+}
+
+ul{
+    list-style-type: none;
+    color:var(--light-gray);
+}
+
+body{
+    padding:1.25rem;
+    font-size: 16px;
+    font-family: "karla", sans-serif;
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.signup{
+    background-color: var(--bright-yellow);
+    padding: 0.625rem 1.25rem;
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+p{
+    line-height: 1.6;
+}
+
+li{
+    line-height: 1.6;
+}
+
+p.green{
+    color:var(--bright-yellow);
+    font-weight: 700;
+} 
+
+.container{
+    background-color: white; 
+    border-radius: 0.625rem;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.15) ;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+.container > article:first-child{
+    padding: 2rem;
+}
+
+.container > article:first-child h1{
+    color: var(--cyan);
+    margin-bottom: 2rem;
+}
+
+.container > article:first-child p{
+    margin-bottom: 0.5rem;
+}
+.container > article:first-child p:last-child{
+    color:var(--grayish-blue);
+}
+
+.container section{
+    display: flex;
+    color: white;
+}
+
+.container section article{
+    padding: 0 2rem 2rem;
+    flex: 1;
+}
+
+.left-article {
+    background-color: var(--cyan);
+    border-bottom-left-radius: 0.625rem;
+}
+
+.right-article {
+    background-color: rgb(107, 218, 218);
+    border-bottom-right-radius: 0.625rem;   
+}
+
+.right-article  h2{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.left-article  h2{
+    margin-bottom:2rem;
+    margin-top: 2rem;
+}
+.left-article h3{
+    color:var(--light-gray);
+    margin-bottom:1rem;
+}
+
+span{
+    color:white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.left-article  p{
+    margin-bottom:3rem;
+}
